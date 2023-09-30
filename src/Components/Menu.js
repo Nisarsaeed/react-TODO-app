@@ -1,4 +1,4 @@
-import './Menu.css';
+import {Link} from 'react-router-dom';
 
 export default function Menu(){
 
@@ -8,9 +8,9 @@ export default function Menu(){
                <h2>Menu</h2>
             </div>
             <div className="menu-options">
-            <h5>Tasks</h5>
-            <h3>Today</h3>
-            <h3>UpComming</h3>
+            <h5 className='menu-list'>Tasks</h5>
+            <Link to='/' className='menu-list'><h3>Today</h3></Link>
+            <Link to='upComming'className='menu-list'><h3>UpComming</h3></Link>
             </div>
         </div>
     );
