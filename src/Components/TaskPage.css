@@ -13,3 +13,6 @@
 .page-container > h1{
     height: 5rem;
 }
+.task-container > *{
+    margin-bottom: 1rem;
+}
