@@ -1,0 +1,12 @@
+.menu-container{
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1.25rem;
+    background-color: lightgrey;
+}
+.menu-heading{
+    height:5rem;
+}
+.menu-options>*{
+    margin-bottom: 1rem;
+}
