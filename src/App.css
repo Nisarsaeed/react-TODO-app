@@ -6,27 +6,36 @@
   text-decoration: none;
   color: black;
 }
-.App{
-  min-height:100vh;
+
+.App {
+  min-height: 100vh;
   width: 100vw;
   display: flex;
   background-color: #aaa6a6fc
 }
-.menu-container{
+
+.menu-container {
   width: 20%;
   height: auto;
   border-radius: 1rem;
-    margin: 1rem;
-    padding: 1.25rem;
-    background-color: lightgrey;
+  margin: 1rem;
+  padding: 1.25rem;
+  background-color: lightgrey;
 }
-.menu-heading{
-  height:5rem;
+
+.menu-heading {
+  height: 5rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
 }
- .menu-list, .menu-list h3{
+
+.menu-list,
+.menu-list h3 {
   margin-bottom: 1rem;
 }
-.page-container{
+
+.page-container {
   width: 80%;
   height: auto;
 }

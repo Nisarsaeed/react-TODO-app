@@ -12,7 +12,7 @@ function App() {
         <Menu />
         <Routes>
           <Route path='/' element={<TaskPage day='Today' />} />
-          <Route path='/upComming' element={<TaskPage day='upComming' />} />
+          <Route path='/upComming' element={<TaskPage day='Up Comming' />} />
         </Routes>
       </BrowserRouter>
     </div>
