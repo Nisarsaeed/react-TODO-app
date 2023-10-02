@@ -1,18 +1,36 @@
-.Task{
+.Task {
     display: flex;
     flex-direction: column;
 }
-.Task > *{
+
+.Task>* {
     margin-bottom: 0.5rem;
 }
-.page-container{
+
+.page-container {
+    width: 80%;
+    height: auto;
     margin: 1rem;
     padding: 1.15rem;
     background-color: lightgray;
 }
-.page-container > h1{
+
+.page-container>h1 {
     height: 5rem;
 }
-.task-container > *{
-    margin-bottom: 1rem;
+.task-container{
+    width: 100%;
+}
+.task-container>table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+
+}
+
+.table-head th,
+.table-body td {
+    border: 1px solid #000000;
+    padding: 1rem;
+    overflow-wrap: break-word;
 }
