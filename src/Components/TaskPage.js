@@ -1,6 +1,6 @@
 import './TaskPage.css';
 
-export default function TaskPage({ day,taskData }) {
+export default function TaskPage({ day,taskData, dateColDisplay }) {
     
     return (
         <div className="page-container">
@@ -11,7 +11,7 @@ export default function TaskPage({ day,taskData }) {
                         <tr>
                             <th id='nameCol'>Subject</th>
                             <th id='detailsCol'>Details</th>
-                            <th id='dateCOl'>Due Date</th>
+                            <th id='dateCOl' style={{display:{dateColDisplay}}}>Due Date</th>
                         </tr>
                     </thead>
                     <tbody className='table-body'>

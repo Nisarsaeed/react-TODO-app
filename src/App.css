@@ -6,14 +6,12 @@
   text-decoration: none;
   color: black;
 }
-
 .App {
   min-height: 100vh;
   width: 100vw;
   display: flex;
-  background-color: #aaa6a6fc
+  background: linear-gradient(90deg, hsla(212, 35%, 58%, 1) 0%, hsla(218, 32%, 80%, 1) 100%);
 }
-
 .menu-container {
   width: 20%;
   height: auto;
@@ -22,19 +20,16 @@
   padding: 1.25rem;
   background-color: lightgrey;
 }
-
 .menu-heading {
   height: 5rem;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
 }
-
 .menu-list,
 .menu-list h3 {
   margin-bottom: 1rem;
 }
-
 @media (max-width:800px) {
   .menu-container{
     display: none;
@@ -42,16 +37,22 @@
   .app{
     width: 100vw;
     min-height: 100vh;
-    font-size: small;
-    padding: 0.5rem;
   }
   .page-container{
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     overflow-wrap: break-word;
+    align-self: center;
   }
   .task-container, .task-container table{
     height: 100%;
-    overflow-x: auto;
+  }
+  .task-container{
+    overflow-x: scroll;
+  }
+  .table-body td{
+    
+    font-size: small;
+    padding: 0.5rem;
   }
 }

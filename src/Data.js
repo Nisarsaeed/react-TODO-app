@@ -1,7 +1,7 @@
 export const todayTask = [
     {
         subject: 'Machine Learning',
-        details: 'fwefjwuhfweoifnjhwefowefjweofwenfmweklfwnmjfiowjfweofnjefgioehe3iptweortu34ptiouwer',
+        details: 'Information of the mentioned tasks is available in Laboratory Manual (#3) which isavailable on Classroom (i.e.an application by Google LLC) of the respective subject (course).',
         dueDate: '21-5-23'
     },
 

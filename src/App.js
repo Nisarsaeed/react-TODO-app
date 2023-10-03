@@ -12,8 +12,8 @@ function App() {
       <BrowserRouter>
         <Menu />
         <Routes>
-          <Route path='/' element={<TaskPage day='Today' taskData={todayTask} />} />
-          <Route path='/upComming' element={<TaskPage day='Up Comming' taskData={upCommingTask} />} />
+          <Route path='/' element={<TaskPage day='Today' dateColDisplay='none' taskData={todayTask} />} />
+          <Route path='/upComming' element={<TaskPage day='Up Comming' dateColDisplay='table-cell' taskData={upCommingTask} />} />
         </Routes>
       </BrowserRouter>
     </div>
