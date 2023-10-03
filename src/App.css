@@ -6,12 +6,14 @@
   text-decoration: none;
   color: black;
 }
+
 .App {
   min-height: 100vh;
   width: 100vw;
   display: flex;
   background: linear-gradient(90deg, hsla(212, 35%, 58%, 1) 0%, hsla(218, 32%, 80%, 1) 100%);
 }
+
 .menu-container {
   width: 20%;
   height: auto;
@@ -19,39 +21,60 @@
   margin: 1rem;
   padding: 1.25rem;
   background-color: lightgrey;
+  transition: transform 0.3s ease; /* Add transition for smooth animation */
 }
+
 .menu-heading {
   height: 5rem;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
 }
+
+#barsIcon {
+  cursor: pointer;
+}
+
 .menu-list,
 .menu-list h3 {
   margin-bottom: 1rem;
 }
-@media (max-width:800px) {
-  .menu-container{
-    display: none;
+
+.menu-hidden {
+  transform: translateX(-100%); /* Move the menu out of the viewport */
+}
+
+@media (max-width: 800px) {
+  .menu-container {
+    transform: translateX(-100%); /* Move the menu out of the viewport */
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    z-index: 1; /* Ensure menu is on top of other content */
   }
-  .app{
+  
+  .app {
     width: 100vw;
     min-height: 100vh;
   }
-  .page-container{
+  
+  .page-container {
     max-width: 100%;
     height: 100%;
     overflow-wrap: break-word;
     align-self: center;
   }
-  .task-container, .task-container table{
+  
+  .task-container, .task-container table {
     height: 100%;
   }
-  .task-container{
+  
+  .task-container {
     overflow-x: scroll;
   }
-  .table-body td{
-    
+  
+  .table-body td {
     font-size: small;
     padding: 0.5rem;
   }
