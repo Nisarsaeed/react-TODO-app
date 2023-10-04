@@ -1,20 +1,20 @@
 import { useState } from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.min.css';
 
-export default function Menu(){
-    const [menuDisplay, setMenuDisplay] = useState('true');
+export default function Menu() {
+  const [menuDisplay, setMenuDisplay] = useState('true');
 
-   const linkStyle = {
-        display: 'flex',
-        alignItems: 'baseline'
-   };
+  const linkStyle = {
+    display: 'flex',
+    alignItems: 'baseline'
+  };
 
-   function toggleMenu(){
-        setMenuDisplay(!menuDisplay);
-   }
+  function toggleMenu() {
+    setMenuDisplay(!menuDisplay);
+  }
 
-   return (
+  return (
     <div className={`menu-container ${menuDisplay ? '' : 'menu-hidden'}`}>
       <div className="menu-heading">
         <h2>Menu</h2>
@@ -28,7 +28,6 @@ export default function Menu(){
         <h5 className="menu-list">Tasks</h5>
         <Link to="/" className="menu-list" style={linkStyle}>
           <i
-            id="barsIcon"
             className="fa fa-list-ul fa-sm"
             style={{ margin: '5px' }}
           ></i>
@@ -36,7 +35,6 @@ export default function Menu(){
         </Link>
         <Link to="upComming" className="menu-list" style={linkStyle}>
           <i
-            id="barsIcon"
             className="fa fa-angle-double-right fa-lg"
             style={{ margin: '5px' }}
           ></i>
@@ -45,4 +43,4 @@ export default function Menu(){
       </div>
     </div>
   )
-   }
+}
