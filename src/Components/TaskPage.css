@@ -1,32 +1,21 @@
-.Task {
-    display: flex;
-    flex-direction: column;
-}
-
-.Task>* {
-    margin-bottom: 0.5rem;
-}
-
 .page-container {
-    width: 80%;
+    width: 100%;
     height: auto;
     border-radius: 1rem;
     margin: 1rem;
     padding: 1.15rem;
     background-color: lightgray;
 }
-
-.page-container>h1 {
+.page-container h1 {
     height: 5rem;
 }
-.task-container{
+.task-container {
     width: 100%;
 }
-.task-container>table {
+.task-container table {
     width: 100%;
     border-collapse: collapse;
     text-align: left;
-
 }
 .table-head th,
 .table-body td {
