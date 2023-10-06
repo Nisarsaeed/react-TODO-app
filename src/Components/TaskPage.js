@@ -1,9 +1,9 @@
 import './TaskPage.css';
 
 export default function TaskPage({ day,taskData, dateColDisplay }) {
-    
+
     return (
-        <div className="page-container">
+        <div className="page-container" >
             <h1>{day}</h1>
             <div className="task-container">
                 <table>
