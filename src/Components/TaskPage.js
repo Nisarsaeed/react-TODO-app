@@ -17,7 +17,7 @@ export default function TaskPage({ day,taskData, dateColDisplay }) {
                     <tbody className='table-body'>
                         {taskData.map((item, index) => (
                             <tr key={index}>
-                                <td>{item.subject}</td>
+                                <td>{item.subjectName}</td>
                                 <td>{item.details}</td>
                                 <td>{item.dueDate}</td>
                             </tr>
