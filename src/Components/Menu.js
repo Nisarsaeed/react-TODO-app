@@ -16,11 +16,13 @@ export default function Menu() {
   return (
     <div className= {`sideBar ${sideBarDisplay ? '' : 'sideBar-hidden'}`}>
       <div className='menuBtn'>
+        <abbr title='Toggle Menu'>
         <i
           id="barsIcon"
           className="fa fa-bars fa-lg"
           onClick={toggleMenu}
         ></i>
+        </abbr>
       </div>
       <div className="menu-container">
         <div className="menu-heading">
@@ -45,5 +47,5 @@ export default function Menu() {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
