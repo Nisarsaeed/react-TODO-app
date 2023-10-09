@@ -15,6 +15,9 @@ export default function Menu() {
 
   return (
     <div className= {`sideBar ${sideBarDisplay ? '' : 'sideBar-hidden'}`}>
+        <div className="menu-heading">
+          <h2>Menu</h2>
+        </div>
       <div className='menuBtn'>
         <abbr title='Toggle Menu'>
         <i
@@ -24,10 +27,7 @@ export default function Menu() {
         ></i>
         </abbr>
       </div>
-      <div className="menu-container">
-        <div className="menu-heading">
-          <h2>Menu</h2>
-        </div>
+      <div className={`menu-container ${sideBarDisplay ? '' : 'hide'}`}>
         <div className="menu-options">
           <h5 className="menu-list">Tasks</h5>
           <Link to="/" className="menu-list" style={linkStyle}>
