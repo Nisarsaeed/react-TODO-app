@@ -1,0 +1,55 @@
+.AssessmentTablesContainer{
+    background-color: #f9f9fb;
+    padding: 1rem;
+    gap: 2rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.record-table {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+ .frame {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    width: 100%;
+  }
+.div-wrapper {
+    align-items: center;
+    background-color: var(--neutral-100);
+    border: 0.5px solid;
+    border-color: var(--neutral-700);
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 8px;
+    justify-content: center;
+    padding: 4px;
+  }
+ .div {
+    color: var(--errorred-600);
+    flex: 1;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.5px;
+    text-align: center;
+  }
+  .text-wrapper-4 {
+    color: #000000;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+  }
