@@ -18,6 +18,7 @@ export const fetchWeeklyRecord = async () => {
             };
         });
         return sanitizedEntries;
+         
     } catch (error) {
         console.error("Error fetching Weekly Record  Data:", error);
         throw error;
