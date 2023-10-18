@@ -1,0 +1,189 @@
+:root {
+    --errorred-600: rgba(220, 38, 38, 1);
+    --neutral-100: rgba(237, 238, 242, 1);
+    --neutral-400: rgba(182, 187, 201, 1);
+    --neutral-50: rgba(249, 249, 251, 1);
+    --neutral-700: rgba(64, 69, 86, 1);
+    --neutral-800: rgba(32, 35, 43, 1);
+    --primaryblue-400: rgba(52, 96, 220, 1);
+    --successgreen-600: rgba(5, 150, 105, 1);
+}
+
+.record {
+    background-color: #f9f9fb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.record .record-w {
+    display: flex;
+    background-color: var(--neutral-50);
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+
+.record .text-wrapper-2 {
+    color: var(--primaryblue-400);
+    flex: 1;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.5px;
+    text-align: center;
+}
+
+.record .text-wrapper-3 {
+    color: var(--neutral-800);
+    flex: 1;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.5px;
+    text-align: center;
+}
+
+
+
+.record .text-wrapper-5 {
+    color: var(--neutral-800);
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+}
+
+.record .p {
+    color: #000000;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    width: 244px;
+}
+
+.record .card-weekly-report {
+    align-items: flex-start;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.record .DBS {
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 8px;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    width: 100%;
+}
+
+.record .weeklyHeading {
+    color: var(--primaryblue-400);
+    flex: 1;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+}
+
+.record .weeklyDetails {
+    color: var(--neutral-800);
+    flex: 1;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+}
+
+.record .frame-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    width: 100%;
+}
+
+.record .frame-3 {
+    align-items: flex-start;
+    background-color: var(--neutral-100);
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 16px;
+    padding: 12px;
+}
+
+.record .frame-4 {
+    align-items: flex-start;
+    background-color: var(--neutral-100);
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 16px;
+    padding: 12px;
+}
+
+.record .week-slider {
+    position: relative;
+    width: 50%;
+}
+
+.record .text-wrapper-8 {
+    color: var(--successgreen-600);
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.week-slider i {
+    position: absolute;
+    top: 2.25rem;
+}
+
+.record .icon-left {
+    left: 10px;
+}
+
+.record .icon-right {
+    right: 10px;
+}
+
+.record .type-fi-chevron-left-size-24-color-black {
+    height: 24px !important;
+    left: 0 !important;
+    position: absolute !important;
+    top: 1px !important;
+    width: 24px !important;
+}
+
+.WeeklyRecordContainer {
+    width: 100%;
+}
