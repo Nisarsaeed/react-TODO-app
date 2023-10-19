@@ -1,0 +1,43 @@
+@media screen and (max-width:500px) {
+    .App {
+        flex-direction: column;
+    }
+
+    .menu-options {
+        margin-top: 2rem;
+    }
+
+    .sideBar {
+        width: 90%;
+    }
+
+    .sideBar .menuBtn {
+        position: initial;
+    }
+
+    .menu-heading {
+        height: 5px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    #barsIcon::before {
+        margin: 5px 10px 0 0;
+    }
+
+    .weeklyRecordContainer,
+    .AssessmentTablesContainer {
+        width: 93vw;
+        height: 90vh;
+    }
+
+}
+
+@media screen and (min-width: 401px) {
+    .sideBar-hidden {
+        margin-left: -17%;
+
+    }
+}
