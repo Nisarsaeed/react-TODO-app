@@ -14,7 +14,7 @@ export const WeeklyProgressTracker = ({ recordData }) => {
     };
     const currentWeekData = recordData[currentWeek] || [];
     return (
-        <div className="record">
+        <div className="weeklyRecordContainer">
 
             <div className="week-slider">
                 <div className="text-wrapper-5">Weekly Report</div>
@@ -29,7 +29,7 @@ export const WeeklyProgressTracker = ({ recordData }) => {
                     onClick={() => changeWeek(1)}
                 ></i>
             </div>
-            <div className="WeeklyRecordContainer">
+            <div className="recordContainer">
                 <div className="text-wrapper-8">Week {currentWeek}</div>
                 <div className="card-weekly-report">
                     {currentWeekData.map((item, index) => (

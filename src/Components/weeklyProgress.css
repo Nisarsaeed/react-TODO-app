@@ -9,56 +9,20 @@
     --successgreen-600: rgba(5, 150, 105, 1);
 }
 
-.record {
-    background-color: #f9f9fb;
+.weeklyRecordContainer {
+    background-color: rgba(237, 238, 242, 1);
+    padding: 1.15rem;
+    margin: 1rem;
+    border-radius: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    padding: 1rem;
-    min-height: 100vh;
+    height: 100vh;
     width: 100vw;
 }
 
-.record .record-w {
-    display: flex;
-    background-color: var(--neutral-50);
-    height: 100%;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-    gap: 1rem;
-}
-
-
-.record .text-wrapper-2 {
-    color: var(--primaryblue-400);
-    flex: 1;
-    font-family: "Poppins-SemiBold", Helvetica;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -0.5px;
-    text-align: center;
-}
-
-.record .text-wrapper-3 {
-    color: var(--neutral-800);
-    flex: 1;
-    font-family: "Poppins-SemiBold", Helvetica;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -0.5px;
-    text-align: center;
-}
-
-
-
-.record .text-wrapper-5 {
+.weeklyRecordContainer .text-wrapper-5 {
     color: var(--neutral-800);
     font-family: "Poppins-SemiBold", Helvetica;
     font-size: 16px;
@@ -68,7 +32,7 @@
     text-align: center;
 }
 
-.record .p {
+.weeklyRecordContainer .p {
     color: #000000;
     font-family: "Poppins-Medium", Helvetica;
     font-size: 12px;
@@ -78,7 +42,7 @@
     width: 244px;
 }
 
-.record .card-weekly-report {
+.weeklyRecordContainer .card-weekly-report {
     align-items: flex-start;
     border-radius: 8px;
     display: flex;
@@ -86,17 +50,7 @@
     width: 100%;
 }
 
-.record .DBS {
-    align-items: flex-start;
-    align-self: stretch;
-    border-radius: 8px;
-    display: flex;
-    flex: 0 0 auto;
-    gap: 16px;
-    width: 100%;
-}
-
-.record .weeklyHeading {
+.weeklyRecordContainer .weeklyHeading {
     color: var(--primaryblue-400);
     flex: 1;
     font-family: "Poppins-SemiBold", Helvetica;
@@ -107,7 +61,7 @@
     margin-top: -1px;
 }
 
-.record .weeklyDetails {
+.weeklyRecordContainer .weeklyDetails {
     color: var(--neutral-800);
     flex: 1;
     font-family: "Poppins-Medium", Helvetica;
@@ -118,7 +72,7 @@
     margin-top: -1px;
 }
 
-.record .frame-wrapper {
+.weeklyRecordContainer .frame-wrapper {
     align-items: flex-start;
     align-self: stretch;
     display: flex;
@@ -127,32 +81,23 @@
     width: 100%;
 }
 
-.record .frame-3 {
+.weeklyRecordContainer .frame-4 {
     align-items: flex-start;
-    background-color: var(--neutral-100);
+    background-color: rgb(219 220 226);
     display: flex;
     flex: 1;
     flex-grow: 1;
     gap: 16px;
+    margin-bottom: 5px;
     padding: 12px;
 }
 
-.record .frame-4 {
-    align-items: flex-start;
-    background-color: var(--neutral-100);
-    display: flex;
-    flex: 1;
-    flex-grow: 1;
-    gap: 16px;
-    padding: 12px;
-}
-
-.record .week-slider {
+.weeklyRecordContainer .week-slider {
     position: relative;
     width: 50%;
 }
 
-.record .text-wrapper-8 {
+.weeklyRecordContainer .text-wrapper-8 {
     color: var(--successgreen-600);
     font-family: "Poppins-SemiBold", Helvetica;
     font-size: 16px;
@@ -168,22 +113,14 @@
     top: 2.25rem;
 }
 
-.record .icon-left {
+.weeklyRecordContainer .icon-left {
     left: 10px;
 }
 
-.record .icon-right {
+.weeklyRecordContainer .icon-right {
     right: 10px;
 }
 
-.record .type-fi-chevron-left-size-24-color-black {
-    height: 24px !important;
-    left: 0 !important;
-    position: absolute !important;
-    top: 1px !important;
-    width: 24px !important;
-}
-
-.WeeklyRecordContainer {
+.recordContainer {
     width: 100%;
 }

@@ -1,6 +1,6 @@
 .page-container {
-    width: 100%;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
     border-radius: 1rem;
     margin: 1rem;
     padding: 1.15rem;
@@ -27,5 +27,5 @@
     background-color: #ccd0d4;
 }
 .table-body tr:hover{
-    background-color: #acafb2b1;
+    background-color: #dadde2b5;
 }
