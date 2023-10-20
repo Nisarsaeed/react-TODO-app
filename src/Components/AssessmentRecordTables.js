@@ -1,5 +1,5 @@
 import { QuizTableData, AssignmentTableData } from "../PastQuiz&AssignmentData";
-import "./assessmentTable.css";
+import "../styles/assessmentTable.css";
 
 export const AssessmentRecordTables = ()=>{
 

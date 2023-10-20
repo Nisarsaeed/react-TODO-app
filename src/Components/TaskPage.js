@@ -1,4 +1,4 @@
-import './TaskPage.css';
+import '../styles/TaskPage.css';
 
 export default function TaskPage({ day,taskData, dateColDisplay }) {
 

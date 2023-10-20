@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import "./weeklyProgress.css";
+import "../styles/weeklyProgress.css";
 
 export const WeeklyProgressTracker = ({ recordData }) => {
     const [currentWeek, setCurrentWeek] = useState(1);

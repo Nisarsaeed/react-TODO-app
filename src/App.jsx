@@ -6,9 +6,9 @@ import Menu from './Components/Menu';
 import TaskPage from './Components/TaskPage'
 import { AssessmentRecordTables } from './Components/AssessmentRecordTables';
 import { WeeklyProgressTracker } from './Components/WeeklyProgressTracker';
-import './App.css' ;
-import './Components/desktop-responsive.css';
-import './Components/mobile-responsive.css';
+import './styles/App.css' ;  
+import './styles/desktop-responsive.css';
+import './styles/mobile-responsive.css';
 
 function App() {
   const { todayTasks, upComingTasks } = useTasksData();
