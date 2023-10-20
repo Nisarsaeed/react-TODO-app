@@ -11,7 +11,7 @@ export default function TaskPage({ day,taskData, dateColDisplay }) {
                         <tr>
                             <th id='nameCol'>Subject</th>
                             <th id='detailsCol'>Details</th>
-                            <th id='dateCOl' style={{display:{dateColDisplay}}}>Due Date</th>
+                            <th id='dateCOl' className={dateColDisplay}>Due Date</th>
                         </tr>
                     </thead>
                     <tbody className='table-body'>
@@ -19,7 +19,7 @@ export default function TaskPage({ day,taskData, dateColDisplay }) {
                             <tr key={index}>
                                 <td>{item.subjectName}</td>
                                 <td>{item.details}</td>
-                                <td>{item.dueDate}</td>
+                                <td className={dateColDisplay}>{item.dueDate}</td>
                             </tr>
                         ))}
                     </tbody>

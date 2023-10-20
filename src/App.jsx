@@ -19,8 +19,8 @@ function App() {
       <BrowserRouter>
         <Menu />
         <Routes>
-          <Route path='/' element={<TaskPage day='Today' dateColDisplay='none' taskData={todayTasks} />} />
-          <Route path='/upComming' element={<TaskPage day='Up Comming' dateColDisplay='table-cell' taskData={upComingTasks} />} />
+          <Route path='/' element={<TaskPage day='Today' dateColDisplay='display-none' taskData={todayTasks} />} />
+          <Route path='/upComming' element={<TaskPage day='Up Comming' dateColDisplay='' taskData={upComingTasks} />} />
           <Route path='/tables' element={<AssessmentRecordTables />} />
           <Route path='/weeklyProgress' element={<WeeklyProgressTracker recordData={sortedWeeklyData} />} />
         </Routes>

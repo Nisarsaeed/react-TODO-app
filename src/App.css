@@ -78,3 +78,6 @@
   border-bottom: 1px solid black;
 }
 
+.display-none{
+  display: none !important;
+}
