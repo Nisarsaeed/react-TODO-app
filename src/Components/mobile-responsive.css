@@ -9,6 +9,7 @@
 
     .sideBar {
         width: 90%;
+        padding: 1rem 0.5rem;
     }
 
     .sideBar .menuBtn {
@@ -35,9 +36,9 @@
 
 }
 
-@media screen and (min-width: 401px) {
-    .sideBar-hidden {
-        margin-left: -17%;
+@media screen and (min-width:501px) {
+     .sideBar-hidden {
+        margin-left: -15%;
 
     }
 }

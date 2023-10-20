@@ -23,4 +23,9 @@
       font-size: small;
       padding: 0.5rem;
     }
+
+    .menu-container h5, .menu-container h3{
+      font-size: small;
+  }
+
   }
