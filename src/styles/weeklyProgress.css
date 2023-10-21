@@ -113,6 +113,10 @@
     top: 2.25rem;
 }
 
+.week-slider i:hover{
+    cursor: pointer;
+}
+
 .weeklyRecordContainer .icon-left {
     left: 10px;
 }
