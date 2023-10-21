@@ -28,7 +28,7 @@ export default function Menu() {
         </abbr>
       </div>
       <div className={`menu-container ${sideBarDisplay ? '' : 'hide'}`}>
-        <div className="menu-options">
+        <div className="menu-options" onClick={toggleMenu}>
           <h5 className="menu-list">Tasks</h5>
           <Link to="/" className="menu-list" style={linkStyle}>
             <i
