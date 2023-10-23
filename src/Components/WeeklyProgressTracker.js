@@ -2,7 +2,7 @@ import { React, useState } from "react";
 import "../styles/weeklyProgress.css";
 
 export const WeeklyProgressTracker = ({ recordData }) => {
-    const [currentWeek, setCurrentWeek] = useState(1);
+    const [currentWeek, setCurrentWeek] = useState(7);
 
     const changeWeek = (increment) => {
         const maxWeek = Object.keys(recordData).length;
